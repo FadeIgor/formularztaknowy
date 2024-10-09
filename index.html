@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nie</title>
+</head>
+<body>
+    <form action="mailto:tak@tak.pl" method="post" enctype="text/plain" >
+        <p>a jok sie wabisz?</p>
+        <input name="Imię" maxlength="35" size="20"><br>
+        
+        <p>Ile mosz lat synek?</p>
+        <input type="radio" name="Wiek" value="mniej niz 12"> mniej niz 12 <br>
+        <input type="radio" name="Wiek" value="12 a 15"> 12 a 15<br>
+        <input type="radio" name="Wiek" value="15 a 17"> 15 a 17 <br>
+        <input type="radio" name="Wiek" value="18+"> 18+ tyś jest stary chłop synek <br>
+
+
+        <p>Tak?</p>
+        <input type="checkbox" name="Tak" value="Tak"> Tak <br>
+        <input type="checkbox" name="Tak" value="Tak"> Tak <br>
+        <input type="checkbox" name="Tak" value="Nie?"> Nie?(tak) <br>
+        <input type="checkbox" name="Tak" value="Tak"> Tak <br>
+
+        <p>a na czym ty guglasz?</p>
+        <select name="Przeglądarka">
+            <option selected>nie guglam</option>
+            <option>chrome</option>
+            <option>Opera(hatfu)</option>
+            <option>Firefox</option>
+            <option>Edge</option>
+            <option>Inna</option>
+        </select>
+ 
+        <p>znosz cos poza windowsem?(możesz wybrać kilka opcji trzymając klawisz Ctrl)?</p>
+        <select name="System operacyjny" multiple size="3">
+            <option selected>Windows</option>
+            <option>DOS</option>
+            <option>Linux</option>
+            <option>inny Linux</option>
+            <option>jeszcze inny Linux</option>
+            <option>Inny</option>
+        </select>
+
+        <br><br>
+        <input type="submit" value="Wyślij formularz">
+        <input type="reset" value="Wyczyść dane">
+    </form>
+</body>
+</html>
